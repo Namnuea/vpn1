@@ -42,7 +42,7 @@ clear
 			
 	echo ""
 read -p "โปรดใส่รหัสสำหรับติดตั้ง:" passwds
-wget -q -O /usr/bin/pass namnuea
+wget -q -O /usr/bin/pass nuea
 if ! grep -w -q $passwds /usr/bin/pass; then
 clear
 echo ""
